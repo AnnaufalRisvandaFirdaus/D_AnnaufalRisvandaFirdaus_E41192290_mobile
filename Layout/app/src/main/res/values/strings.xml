@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TugasLyout</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+
+</resources>

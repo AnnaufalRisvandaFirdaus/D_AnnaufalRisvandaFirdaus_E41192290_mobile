@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/btn_nama"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="#ecf0f1"
+        android:hint="Name"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/bnt_email"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#ecf0f1"
+        android:padding="16dp"
+        android:hint="Email"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/btn_nama"/>
+    <TextView
+        android:id="@+id/btn_subjek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@+id/btn_nama"
+        android:layout_marginTop="16dp"
+        android:background="#ecf0f1"
+        android:hint="teks"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/btn_email"
+        android:background="#ecf0f1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btn_subjek"
+        android:padding="16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3ff126"
+        android:textColorHint="@color/white"
+        android:id="@+id/btn_tekan"
+        android:layout_below="@+id/btn_email"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:onClick="actionRenLayout"
+        android:hint="Submit"/>
+
+</RelativeLayout>
