@@ -3,23 +3,41 @@
     <string name="list_view">List View</string>
     <string name="recycler_view">Recycler View</string>
 
-    <string-array name="country_array">
-        <item>Afghanistan</item>
-        <item>Indonesia</item>
-        <item>Australia</item>
-        <item>Arab</item>
-        <item>Jepang</item>
-        <item>Korea</item>
-        <item>India</item>
-        <item>Iraq</item>
-        <item>Argentina</item>
-        <item>Amerika Serikat</item>
-        <item>Austria</item>
-        <item>Belgium</item>
-        <item>German</item>
-        <item>Italia</item>
-        <item>Turki</item>
-        <item>Spanyol</item>
-        <item>Rusia</item>
+    <string-array name="Provinsi_array">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Kepulauan Riau</item>
+        <item>Jambi</item>
+        <item>Sumatera Selatan</item>
+        <item>Kepulauan Bangka Belitung</item>
+        <item>Bengkulu</item>
+        <item>Lampung</item>
+        <item>DKI Jakarta</item>
+        <item>Banten</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>DI Yogyakarta</item>
+        <item>Jawa Timur</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Sulawesi Utara</item>
+        <item>Gorontalo</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua Barat</item>
+        <item>Papua</item>
+
     </string-array>
 </resources>

@@ -31,11 +31,11 @@ public class RecyclerViewActivity extends AppCompatActivity {
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
         mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Annaufal Risvanda Firdaus", "E41192290", "Teknik Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Daro Qutni Alfarisi", "E41190868", "Teknik  Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Riyan", "E41190860", "Teknik  Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Anton", "E41192090", "Teknik  Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Dimas", "E41192010", "Teknik  Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Indra", "E41193010", "Teknik  Informatika"));
-        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Pras", "E41194509", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Daro Qutni Alfarisi", "E41191975", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Riyan", "E41192426", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Anton", "E41191929", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Dimas", "E41192208", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Indra", "E41192478", "Teknik  Informatika"));
+        mahasiswaArrayList.add(new com.arf.Tugas4.Mahasiswa("Pras", "E41192428", "Teknik  Informatika"));
     }
 }
