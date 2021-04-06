@@ -12,26 +12,30 @@ public class MyViewPagerAdapter extends FragmentPagerAdapter {
     ArrayList<Fragment> arrayListFragment;
     ArrayList<String> arrayListJudul;
 
-    public MyViewPagerAdapter(FragmentManager fm, ArrayList<Fragment> arrayListFragment, ArrayList<String> arrayListJudul) {
+    public MyViewPagerAdapter(@NonNull FragmentManager fm, ArrayList<Fragment> arrayListFragment, ArrayList<String> arrayListJudul) {
         super(fm);
         this.arrayListFragment = arrayListFragment;
         this.arrayListJudul = arrayListJudul;
     }
+    @NonNull
+    @Override
+    public Fragment getItem(int position) {
+        return arrayListFragment.get(position);
+    }
+
 
     @Override
     public int getCount() {
-        return arrayListFragment.size();
-    }
 
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return arrayListJudul.get(position);
+        return arrayListFragment.size();
     }
 
 
     @NonNull
     @Override
-    public Fragment getItem(int position) {
-        return null;
+    public CharSequence getPageTitle(int position) {
+        return arrayListJudul.get(position);
+
     }
 }
+

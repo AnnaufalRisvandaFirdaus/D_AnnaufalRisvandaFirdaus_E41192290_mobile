@@ -10,6 +10,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
+
 public class MainActivity extends AppCompatActivity {
 
     TabLayout tabLayout;
